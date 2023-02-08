@@ -1,5 +1,5 @@
-﻿AIUtil.SetContext Browser("creationtime:=5")
+﻿AIUtil.SetContext Browser("creationtime:=0")
 AIUtil("profile").Click
-AIUtil("input", "Username").Type "Dominikg"
+AIUtil("input", "Usemame").Type "Dominikg"
 AIUtil("input", "Password").Type "Password1"
-AIUtil.FindTextBlock("SIGN IN").Click
+AIUtil("input", "").Type "Dominikg"
